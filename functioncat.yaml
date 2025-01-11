@@ -14,7 +14,7 @@ apps:
       prod:
         build:
           root_path: ./
-          script:  npm run build
+          script:  npm run serve
         provision:
           root_path: dist
           type: nodejs18x
